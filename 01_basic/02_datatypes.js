@@ -1,7 +1,7 @@
 "use Strict"; //treat all js code as newer version
 
 
-// alert(3 + 3) we are using node js not browser
+// alert(3 + 3) we are using node js not browser(it is use in browser)
 
 // PREMETIVE DATATYPES
 // number => 2 to power 53
