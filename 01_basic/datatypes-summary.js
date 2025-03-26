@@ -41,3 +41,28 @@ let userEmail; //undefined
  }
 
  console.log(typeof myfunction)
+
+
+
+//  ---------------------------------------
+
+
+// stack memory use in  (Primitive type) , Heap memory use in (Non-primitive type) 
+
+
+let myName = "thakarmandyal" 
+
+let anotherName = myName
+anotherName = "tytytyt"
+console.log(myName)
+console.log(anotherName)
+
+let user = {
+   email : "rrrr.com",
+   upi : "yyy@ybl"
+}
+let userTwo = user
+userTwo.email = "ytytyyttyty@gmail.com"
+
+console.log(user.email)
+console.log(userTwo.email)
